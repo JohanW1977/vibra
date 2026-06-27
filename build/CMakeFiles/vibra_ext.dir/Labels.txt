@@ -1,0 +1,13 @@
+# Target labels
+ vibra_ext
+# Source files and their labels
+/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/CMakeFiles/vibra_ext
+/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/CMakeFiles/vibra_ext.rule
+/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/CMakeFiles/vibra_ext-complete.rule
+/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_ext-prefix/src/vibra_ext-stamp/vibra_ext-build.rule
+/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_ext-prefix/src/vibra_ext-stamp/vibra_ext-configure.rule
+/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_ext-prefix/src/vibra_ext-stamp/vibra_ext-download.rule
+/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_ext-prefix/src/vibra_ext-stamp/vibra_ext-install.rule
+/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_ext-prefix/src/vibra_ext-stamp/vibra_ext-mkdir.rule
+/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_ext-prefix/src/vibra_ext-stamp/vibra_ext-patch.rule
+/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_ext-prefix/src/vibra_ext-stamp/vibra_ext-update.rule

@@ -1,0 +1,206 @@
+[
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/lib",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -Dvibra_shared_EXPORTS -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++11 -fPIC -o CMakeFiles/vibra_shared.dir/vibra.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/vibra.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/vibra.cpp",
+  "output": "lib/CMakeFiles/vibra_shared.dir/vibra.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/lib",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -Dvibra_shared_EXPORTS -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++11 -fPIC -o CMakeFiles/vibra_shared.dir/algorithm/signature.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/algorithm/signature.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/algorithm/signature.cpp",
+  "output": "lib/CMakeFiles/vibra_shared.dir/algorithm/signature.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/lib",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -Dvibra_shared_EXPORTS -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++11 -fPIC -o CMakeFiles/vibra_shared.dir/algorithm/frequency.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/algorithm/frequency.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/algorithm/frequency.cpp",
+  "output": "lib/CMakeFiles/vibra_shared.dir/algorithm/frequency.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/lib",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -Dvibra_shared_EXPORTS -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++11 -fPIC -o CMakeFiles/vibra_shared.dir/algorithm/signature_generator.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/algorithm/signature_generator.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/algorithm/signature_generator.cpp",
+  "output": "lib/CMakeFiles/vibra_shared.dir/algorithm/signature_generator.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/lib",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -Dvibra_shared_EXPORTS -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++11 -fPIC -o CMakeFiles/vibra_shared.dir/audio/wav.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/audio/wav.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/audio/wav.cpp",
+  "output": "lib/CMakeFiles/vibra_shared.dir/audio/wav.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/lib",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -Dvibra_shared_EXPORTS -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++11 -fPIC -o CMakeFiles/vibra_shared.dir/audio/downsampler.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/audio/downsampler.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/audio/downsampler.cpp",
+  "output": "lib/CMakeFiles/vibra_shared.dir/audio/downsampler.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/lib",
+  "command": "/usr/bin/cc -Dkiss_fft_scalar=double -Dvibra_shared_EXPORTS -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft -O3 -DNDEBUG -fPIC -o CMakeFiles/vibra_shared.dir/__/third-party/kissfft/kiss_fft.c.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft/kiss_fft.c",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft/kiss_fft.c",
+  "output": "lib/CMakeFiles/vibra_shared.dir/__/third-party/kissfft/kiss_fft.c.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/lib",
+  "command": "/usr/bin/cc -Dkiss_fft_scalar=double -Dvibra_shared_EXPORTS -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft -O3 -DNDEBUG -fPIC -o CMakeFiles/vibra_shared.dir/__/third-party/kissfft/kiss_fftr.c.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft/kiss_fftr.c",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft/kiss_fftr.c",
+  "output": "lib/CMakeFiles/vibra_shared.dir/__/third-party/kissfft/kiss_fftr.c.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/lib",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/vibra_static.dir/vibra.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/vibra.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/vibra.cpp",
+  "output": "lib/CMakeFiles/vibra_static.dir/vibra.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/lib",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/vibra_static.dir/algorithm/signature.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/algorithm/signature.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/algorithm/signature.cpp",
+  "output": "lib/CMakeFiles/vibra_static.dir/algorithm/signature.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/lib",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/vibra_static.dir/algorithm/frequency.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/algorithm/frequency.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/algorithm/frequency.cpp",
+  "output": "lib/CMakeFiles/vibra_static.dir/algorithm/frequency.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/lib",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/vibra_static.dir/algorithm/signature_generator.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/algorithm/signature_generator.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/algorithm/signature_generator.cpp",
+  "output": "lib/CMakeFiles/vibra_static.dir/algorithm/signature_generator.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/lib",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/vibra_static.dir/audio/wav.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/audio/wav.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/audio/wav.cpp",
+  "output": "lib/CMakeFiles/vibra_static.dir/audio/wav.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/lib",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/vibra_static.dir/audio/downsampler.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/audio/downsampler.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib/audio/downsampler.cpp",
+  "output": "lib/CMakeFiles/vibra_static.dir/audio/downsampler.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/lib",
+  "command": "/usr/bin/cc -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft -O3 -DNDEBUG -o CMakeFiles/vibra_static.dir/__/third-party/kissfft/kiss_fft.c.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft/kiss_fft.c",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft/kiss_fft.c",
+  "output": "lib/CMakeFiles/vibra_static.dir/__/third-party/kissfft/kiss_fft.c.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/lib",
+  "command": "/usr/bin/cc -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft -O3 -DNDEBUG -o CMakeFiles/vibra_static.dir/__/third-party/kissfft/kiss_fftr.c.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft/kiss_fftr.c",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft/kiss_fftr.c",
+  "output": "lib/CMakeFiles/vibra_static.dir/__/third-party/kissfft/kiss_fftr.c.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/tests",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/include -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++14 -o CMakeFiles/vibra_unit_tests.dir/algorithm/frequency_test.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/algorithm/frequency_test.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/algorithm/frequency_test.cpp",
+  "output": "tests/CMakeFiles/vibra_unit_tests.dir/algorithm/frequency_test.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/tests",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/include -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++14 -o CMakeFiles/vibra_unit_tests.dir/algorithm/signature_generator_test.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/algorithm/signature_generator_test.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/algorithm/signature_generator_test.cpp",
+  "output": "tests/CMakeFiles/vibra_unit_tests.dir/algorithm/signature_generator_test.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/tests",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/include -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++14 -o CMakeFiles/vibra_unit_tests.dir/algorithm/signature_test.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/algorithm/signature_test.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/algorithm/signature_test.cpp",
+  "output": "tests/CMakeFiles/vibra_unit_tests.dir/algorithm/signature_test.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/tests",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/include -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++14 -o CMakeFiles/vibra_unit_tests.dir/audio/byte_control_test.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/audio/byte_control_test.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/audio/byte_control_test.cpp",
+  "output": "tests/CMakeFiles/vibra_unit_tests.dir/audio/byte_control_test.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/tests",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/include -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++14 -o CMakeFiles/vibra_unit_tests.dir/audio/downsampler_test.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/audio/downsampler_test.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/audio/downsampler_test.cpp",
+  "output": "tests/CMakeFiles/vibra_unit_tests.dir/audio/downsampler_test.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/tests",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/include -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++14 -o CMakeFiles/vibra_unit_tests.dir/audio/wav_test.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/audio/wav_test.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/audio/wav_test.cpp",
+  "output": "tests/CMakeFiles/vibra_unit_tests.dir/audio/wav_test.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/tests",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/include -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++14 -o CMakeFiles/vibra_unit_tests.dir/public_api_test.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/public_api_test.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/public_api_test.cpp",
+  "output": "tests/CMakeFiles/vibra_unit_tests.dir/public_api_test.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/tests",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/include -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++14 -o CMakeFiles/vibra_unit_tests.dir/utils/base64_test.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/utils/base64_test.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/utils/base64_test.cpp",
+  "output": "tests/CMakeFiles/vibra_unit_tests.dir/utils/base64_test.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/tests",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/include -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++14 -o CMakeFiles/vibra_unit_tests.dir/utils/crc32_test.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/utils/crc32_test.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/utils/crc32_test.cpp",
+  "output": "tests/CMakeFiles/vibra_unit_tests.dir/utils/crc32_test.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/tests",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/include -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++14 -o CMakeFiles/vibra_unit_tests.dir/utils/fft_test.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/utils/fft_test.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/utils/fft_test.cpp",
+  "output": "tests/CMakeFiles/vibra_unit_tests.dir/utils/fft_test.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/tests",
+  "command": "/usr/bin/c++ -Dkiss_fft_scalar=double -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/kissfft -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/include -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++14 -o CMakeFiles/vibra_unit_tests.dir/utils/ring_buffer_test.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/utils/ring_buffer_test.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/tests/utils/ring_buffer_test.cpp",
+  "output": "tests/CMakeFiles/vibra_unit_tests.dir/utils/ring_buffer_test.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googlemock/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googlemock -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/include -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googlemock/include -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googlemock -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/include -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/include -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/include -isystem /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/cli",
+  "command": "/usr/bin/c++  -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/cli -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/args  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/vibra.dir/main.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/cli/main.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/cli/main.cpp",
+  "output": "cli/CMakeFiles/vibra.dir/main.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/cli",
+  "command": "/usr/bin/c++  -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/cli -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/args  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/vibra.dir/cli.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/cli/cli.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/cli/cli.cpp",
+  "output": "cli/CMakeFiles/vibra.dir/cli.cpp.o"
+},
+{
+  "directory": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/cli",
+  "command": "/usr/bin/c++  -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/lib -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/cli -I/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/third-party/args  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/vibra.dir/communication/shazam.cpp.o -c /home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/cli/communication/shazam.cpp",
+  "file": "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/vibra/cli/communication/shazam.cpp",
+  "output": "cli/CMakeFiles/vibra.dir/communication/shazam.cpp.o"
+}
+]

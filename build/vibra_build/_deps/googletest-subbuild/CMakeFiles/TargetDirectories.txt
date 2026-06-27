@@ -1,0 +1,3 @@
+/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

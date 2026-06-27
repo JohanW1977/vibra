@@ -1,0 +1,45 @@
+vibra features/ buglist:
+------------------------
+done:   1. Remember found tracks (store them in the plasmoid settings for next boot)
+done:   2. Every time the plasmoid is maximized (clicked on the trayicon) the plasmoid must display the search tab. Even when another tab was displayed before minimizing
+done:   3. Choice between continious search (every x seconds based on listen duration from settings) in a loop until switched off of manual search (pressing a button every x seconds based on Listen duration from settings)
+        So keep the seach button, but add a toggle next to it to activate a continious search.
+        As long as the toggle is enabled the button must be disabled and continious search is activated.
+        The circle progress indicator on the right is a good idea. That must stay when search is active
+        The status of the search, the line above the button must stay too!
+done:   4. The Seach slider should be "on" at startup if the option "start listening as startup" is enabled in the settings tab.
+        This is a new option that has to be added.
+        The status of this option must also be stored in the settings.
+done:   5. Search buttons must be greyed out when no track is identifies. Now they are a little darker.
+        Once a track is identified the buttons must be clickable.
+done:   6. All settings must be remembered at next startup.
+done:   7. when the plasmoid is minimized a "card/notification" must be shown for 5 sec. when a track is found.
+        The notification is the acover art picture 400x400 px with the trackname under it.
+done:   8. when a track is found and is the same as the previous find, don't add it to the list (also don't show a card when mimimized) > Show duplicates setting
+done:   9. Update the about logo and credits.
+done:   10. [Bug] Listen duration is not picked up at start.
+        You have to increase then decrease the setting to have the initial 15s listening time.
+done:   11. Right mouseclick the trackname shows menu "Copy Trackname to Clipboard".
+        (Small copy icon on the upper right corner of the detected track, left from the red X)
+done:   12. Right mouseclick the trackname shows menu "Remove From list".
+        (Small red X icon on the upper right corner of the detected track)
+done:   13. [BUG] While Identifying or searching, clicking the "Stop" button craches the plasmoid
+done:   14. One item or more is in the resultlist, add an export icon left from the "clear list" icon
+done:   15. Add "loop search" setting in settings tab that automatically loops the search in the search tab
+done:   16. Is search still running when minimized?
+done:   17. [BUG] When removing most recent seach the focus is set on new recent seach (2nd in row), but coverart is not updated until clicked?
+done:   18. [BUG] When a track found and the loop restarts with a new search, search is discontinued if the same track is detected again (2times in a row)
+done:   19. [BUG] "Copy track name" is not working. Paste in editor gives something else.
+done:   20. Rclick cover art > Save coverart + with icon as "export to csv" or "clear history" (only showing when cover art is shown)
+done:   21. [BUG] Consecutive identical tracks should not be added to the list, but if a track was detected ealier it may be added to the list.
+        So the detected track should only be ignored if the second recent detected track is the same (1 and 2 in the detections list).
+done:   22. [BUG] After removing a detected trac from the results list, focus is automatically to the most recent track in the list (top)
+done:   23. Search buttons for youtube, discogs, spotify and beatport must be smaller (85% of current size)
+done:   24. Rename the plasmoid folder from "org.kde.plasma.shazam" to "org.kde.plasma.vibra".
+        Are changes necessary in the code (recompile backend?)
+
+todo    25. For consequtive similar detections : When Artist and trackname are the same, the track should be considered the same when the remix is null/"", "Original Mix" or "Extended Mix"
+        example: Nikolauss - Kuro, Nikolauss - Kuro (Original Mix), Nikolauss - Kuro (Extended Mix) are the same, so only the first detected should be in the results list.
+
+Known issues:
+------------------------

@@ -1,0 +1,26 @@
+{
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "cjjunk29@gmail.com",
+        "Name": "Bayern Muller"
+      },
+      {
+        "Email": "wauters.johan@telenet.be",
+        "Name": "Johan Wauters"
+      }
+    ],
+    "Category": "Multimedia",
+    "Description": "A Shazam-like music recognition plasmoid",
+    "Icon": "audio-track",
+    "Id": "org.kde.plasma.vibra",
+    "License": "GPLv3",
+    "Name": "Vibra++",
+    "Version": "0.2",
+    "Website": "https://github.com/JohanW1977/vibra"
+  },
+  "KPackageStructure": "Plasma/Applet",
+  "X-Plasma-API-Minimum-Version": "6.0",
+  "X-Plasma-NotificationArea": "true",
+  "X-Plasma-ImportPath": "contents/imports"
+}

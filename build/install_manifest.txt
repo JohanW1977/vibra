@@ -1,0 +1,2 @@
+/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/contents/imports/org/kde/plasma/vibra/libplasma_vibra_plugin.so
+/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/contents/imports/org/kde/plasma/vibra/qmldir

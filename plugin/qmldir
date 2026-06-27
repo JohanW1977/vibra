@@ -1,0 +1,2 @@
+module org.kde.plasma.vibra
+plugin plasma_vibra_plugin

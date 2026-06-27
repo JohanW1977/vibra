@@ -1,0 +1,36 @@
+Here's the complete installation procedure for another machine:
+
+
+Prerequisites (install these packages first:)
+------------------------------------------------------------------
+sudo dnf install cmake extra-cmake-modules qt6-base-devel \
+     kf6-ki18n-devel plasma-devel qt6-qtdeclarative-devel \
+     pipewire-utils pulseaudio-utils kf6-knotifications-devel
+
+
+Installation:
+------------------------------------------------------------------
+# 1. Copy the entire plasmoid directory to the new machine
+cp -r ~/.local/share/plasma/plasmoids/org.kde.plasma.shazam \
+      /path/to/target/
+
+# 2. On the target machine, go to the plasmoid root and build
+cd ~/.local/share/plasma/plasmoids/org.kde.plasma.shazam
+rm -rf build && ./build.sh
+
+# 3. Restart Plasma
+kquitapp6 plasmashell && kstart plasmashell
+
+# 4. Right-click the panel → Add Widgets → search "Vibra"
+
+
+Notes:
+------------------------------------------------------------------
+The build.sh handles everything automatically:
+
+Clones the vibra C++ backend from GitHub
+Builds the Qt plugin
+Installs to both contents/imports/ and /usr/lib64/qt6/qml/
+
+The only thing that won't transfer is your history and settings — those live in ~/.config/plasma-org.kde.plasma.desktop-appletsrc and are user-specific.
+One note: the exact package names may differ on non-Fedora distros (Ubuntu uses -dev suffix instead of -devel).

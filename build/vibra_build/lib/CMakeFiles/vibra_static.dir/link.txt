@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvibra.a CMakeFiles/vibra_static.dir/vibra.cpp.o CMakeFiles/vibra_static.dir/algorithm/signature.cpp.o CMakeFiles/vibra_static.dir/algorithm/frequency.cpp.o CMakeFiles/vibra_static.dir/algorithm/signature_generator.cpp.o CMakeFiles/vibra_static.dir/audio/wav.cpp.o CMakeFiles/vibra_static.dir/audio/downsampler.cpp.o "CMakeFiles/vibra_static.dir/__/third-party/kissfft/kiss_fft.c.o" "CMakeFiles/vibra_static.dir/__/third-party/kissfft/kiss_fftr.c.o"
+/usr/bin/ranlib libvibra.a

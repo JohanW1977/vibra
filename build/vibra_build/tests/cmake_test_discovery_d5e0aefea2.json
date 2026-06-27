@@ -1,0 +1,242 @@
+{
+  "tests": 34,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "FrequencyPeakTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ExposesConstructorValues",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/algorithm\/frequency_test.cpp",
+          "line": 9
+        },
+        {
+          "name": "ComputesFrequencyAmplitudeAndElapsedSeconds",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/algorithm\/frequency_test.cpp",
+          "line": 17
+        }
+      ]
+    },
+    {
+      "name": "SignatureGeneratorTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "ThrowsWhenInputIsTooShort",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/algorithm\/signature_generator_test.cpp",
+          "line": 12
+        },
+        {
+          "name": "GeneratesSignatureFromOneChunk",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/algorithm\/signature_generator_test.cpp",
+          "line": 18
+        },
+        {
+          "name": "AcceptsInputAcrossMultipleFeeds",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/algorithm\/signature_generator_test.cpp",
+          "line": 29
+        }
+      ]
+    },
+    {
+      "name": "SignatureTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "TracksSampleMetadataAndPeakCounts",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/algorithm\/signature_test.cpp",
+          "line": 11
+        },
+        {
+          "name": "ResetClearsPeaksAndUpdatesMetadata",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/algorithm\/signature_test.cpp",
+          "line": 25
+        },
+        {
+          "name": "EncodesAsShazamDataUri",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/algorithm\/signature_test.cpp",
+          "line": 38
+        }
+      ]
+    },
+    {
+      "name": "ByteControlTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "ReadsLittleEndianIntegers",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/audio\/byte_control_test.cpp",
+          "line": 7
+        },
+        {
+          "name": "SignExtendsTwentyFourBitSamples",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/audio\/byte_control_test.cpp",
+          "line": 16
+        },
+        {
+          "name": "ExpandsSamplesToSignedSixtyFourBitRange",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/audio\/byte_control_test.cpp",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "name": "DownsamplerTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "CopiesAlreadyLowQualityMonoPcm",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/audio\/downsampler_test.cpp",
+          "line": 32
+        },
+        {
+          "name": "MixesSignedStereoToMono",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/audio\/downsampler_test.cpp",
+          "line": 46
+        },
+        {
+          "name": "DownsamplesSignedMonoByRatio",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/audio\/downsampler_test.cpp",
+          "line": 59
+        },
+        {
+          "name": "ResamplesSignedMonoToMatchEquivalentLowQualityTone",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/audio\/downsampler_test.cpp",
+          "line": 72
+        },
+        {
+          "name": "ConvertsFloatMonoToSignedLowQualityPcm",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/audio\/downsampler_test.cpp",
+          "line": 94
+        }
+      ]
+    },
+    {
+      "name": "WavTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "CreatesSignedPcmWavMetadata",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/audio\/wav_test.cpp",
+          "line": 49
+        },
+        {
+          "name": "CreatesFloatPcmWavMetadata",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/audio\/wav_test.cpp",
+          "line": 62
+        },
+        {
+          "name": "ParsesRawWavData",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/audio\/wav_test.cpp",
+          "line": 75
+        },
+        {
+          "name": "RejectsInvalidRawWavData",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/audio\/wav_test.cpp",
+          "line": 90
+        }
+      ]
+    },
+    {
+      "name": "PublicApiTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "GeneratesAndFreesFingerprintFromSignedPcm",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/public_api_test.cpp",
+          "line": 44
+        },
+        {
+          "name": "GeneratesSameFingerprintForEquivalentLowQualityWavAndPcm",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/public_api_test.cpp",
+          "line": 61
+        },
+        {
+          "name": "GeneratesFingerprintFromFloatPcm",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/public_api_test.cpp",
+          "line": 85
+        }
+      ]
+    },
+    {
+      "name": "Base64Test",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "EncodesEmptyInput",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/utils\/base64_test.cpp",
+          "line": 7
+        },
+        {
+          "name": "EncodesInputsWithPadding",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/utils\/base64_test.cpp",
+          "line": 11
+        },
+        {
+          "name": "EncodesInputWithoutPadding",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/utils\/base64_test.cpp",
+          "line": 16
+        }
+      ]
+    },
+    {
+      "name": "Crc32Test",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ReturnsKnownChecksum",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/utils\/crc32_test.cpp",
+          "line": 9
+        },
+        {
+          "name": "ReturnsZeroForEmptyBuffer",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/utils\/crc32_test.cpp",
+          "line": 15
+        }
+      ]
+    },
+    {
+      "name": "FFTTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ReturnsMinimumMagnitudeForSilence",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/utils\/fft_test.cpp",
+          "line": 9
+        },
+        {
+          "name": "PlacesConstantSignalEnergyInDcBin",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/utils\/fft_test.cpp",
+          "line": 22
+        }
+      ]
+    },
+    {
+      "name": "RingBufferTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "InitializesWithDefaultValue",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/utils\/ring_buffer_test.cpp",
+          "line": 9
+        },
+        {
+          "name": "AppendsAndWrapsPosition",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/utils\/ring_buffer_test.cpp",
+          "line": 20
+        },
+        {
+          "name": "SupportsNegativeIndexFromBack",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/utils\/ring_buffer_test.cpp",
+          "line": 42
+        },
+        {
+          "name": "WrapsSignedPositionOffset",
+          "file": "\/home\/jwauters\/.local\/share\/plasma\/plasmoids\/org.kde.plasma.vibra\/vibra\/tests\/utils\/ring_buffer_test.cpp",
+          "line": 54
+        }
+      ]
+    }
+  ]
+}

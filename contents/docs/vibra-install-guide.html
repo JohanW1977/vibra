@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vibra++ Plasmoid — Installation Guide</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0d1117; color: #e6edf3; line-height: 1.6; padding: 2rem; }
+  .container { max-width: 860px; margin: 0 auto; }
+  h1 { font-size: 2rem; font-weight: 700; margin-bottom: 0.25rem; color: #f0f6fc; }
+  .subtitle { color: #8b949e; margin-bottom: 2rem; font-size: 1.05rem; }
+  hr { border: none; border-top: 1px solid #30363d; margin: 2rem 0; }
+  h2 { font-size: 1.4rem; font-weight: 600; color: #f0f6fc; margin: 2rem 0 1rem; padding-bottom: 0.3rem; border-bottom: 1px solid #30363d; }
+  h3 { font-size: 1.1rem; font-weight: 600; color: #79c0ff; margin: 1.5rem 0 0.75rem; }
+  h4 { font-size: 1rem; font-weight: 600; color: #e6edf3; margin: 1.25rem 0 0.5rem; }
+  p { margin-bottom: 0.75rem; color: #c9d1d9; }
+  ul, ol { padding-left: 1.5rem; margin-bottom: 0.75rem; color: #c9d1d9; }
+  li { margin-bottom: 0.25rem; }
+  .code-block { position: relative; margin: 0.75rem 0; }
+  pre { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 1rem 1rem 1rem 1rem; overflow-x: auto; font-size: 0.875rem; line-height: 1.6; }
+  code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+  pre code { color: #e6edf3; }
+  .copy-btn { position: absolute; top: 0.5rem; right: 0.5rem; background: #21262d; border: 1px solid #30363d; color: #8b949e; padding: 0.25rem 0.6rem; border-radius: 4px; font-size: 0.75rem; cursor: pointer; transition: all 0.15s; }
+  .copy-btn:hover { background: #30363d; color: #e6edf3; }
+  .copy-btn.copied { color: #3fb950; border-color: #3fb950; }
+  inline-code, code:not(pre code) { background: #161b22; border: 1px solid #30363d; border-radius: 3px; padding: 0.1rem 0.3rem; font-size: 0.875em; color: #79c0ff; font-family: "SFMono-Regular", Consolas, monospace; }
+  .note { background: #1c2128; border-left: 3px solid #388bfd; border-radius: 0 6px 6px 0; padding: 0.75rem 1rem; margin: 1rem 0; color: #c9d1d9; font-size: 0.9rem; }
+  .warn { background: #1c2128; border-left: 3px solid #d29922; border-radius: 0 6px 6px 0; padding: 0.75rem 1rem; margin: 1rem 0; color: #c9d1d9; font-size: 0.9rem; }
+  .step { display: flex; gap: 1rem; margin-bottom: 1.5rem; }
+  .step-num { background: #388bfd; color: #fff; border-radius: 50%; width: 1.75rem; height: 1.75rem; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.875rem; flex-shrink: 0; margin-top: 0.1rem; }
+  .step-content { flex: 1; }
+  .keyword { color: #ff7b72; }
+  .cmd { color: #79c0ff; }
+  .str { color: #a5d6ff; }
+  .comment { color: #8b949e; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Vibra++ Plasmoid</h1>
+<p class="subtitle">A Shazam-like music recognition plasmoid for KDE Plasma 6</p>
+<hr>
+
+<h2>Prerequisites</h2>
+
+<h3>Fedora / RHEL-based</h3>
+<div class="code-block">
+<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code><span class="keyword">sudo</span> dnf install \
+    cmake \
+    extra-cmake-modules \
+    gcc-c++ \
+    qt6-qtbase-devel \
+    qt6-qtdeclarative-devel \
+    kf6-ki18n-devel \
+    kf6-kpackage-devel \
+    plasma-devel \
+    pipewire-utils \
+    pulseaudio-utils \
+    kf6-knotifications-devel \
+    git</code></pre>
+</div>
+
+<h3>Arch / CachyOS / Manjaro</h3>
+<div class="code-block">
+<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code><span class="keyword">sudo</span> pacman -S \
+    cmake \
+    extra-cmake-modules \
+    gcc \
+    qt6-base \
+    qt6-declarative \
+    ki18n \
+    kpackage \
+    libplasma \
+    pipewire \
+    pipewire-pulse \
+    libpulse \
+    git</code></pre>
+</div>
+
+<h3>Ubuntu / Debian-based</h3>
+<div class="code-block">
+<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code><span class="keyword">sudo</span> apt install \
+    cmake \
+    extra-cmake-modules \
+    g++ \
+    qt6-base-dev \
+    qt6-declarative-dev \
+    libkf6i18n-dev \
+    libkf6package-dev \
+    libplasma-dev \
+    pipewire \
+    libpipewire-0.3-dev \
+    pulseaudio-utils \
+    git</code></pre>
+</div>
+
+<hr>
+<h2>Installation</h2>
+
+<div class="step">
+  <div class="step-num">1</div>
+  <div class="step-content">
+    <h4>Copy the plasmoid folder</h4>
+    <p>Copy <code>org.kde.plasma.vibra</code> to your local plasmoids directory:</p>
+    <div class="code-block">
+    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    <pre><code>~/.local/share/plasma/plasmoids/org.kde.plasma.vibra/
+├── contents/
+├── plugin/
+├── vibra/
+├── CMakeLists.txt
+├── build.sh
+└── metadata.json</code></pre>
+    </div>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">2</div>
+  <div class="step-content">
+    <h4>Set permissions</h4>
+    <div class="code-block">
+    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    <pre><code><span class="keyword">cd</span> ~/.local/share/plasma/plasmoids/org.kde.plasma.vibra
+chmod +x build.sh
+find . -name "*.sh" -exec chmod +x {} \;
+chmod -R a+rX .</code></pre>
+    </div>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">3</div>
+  <div class="step-content">
+    <h4>Build and install</h4>
+    <div class="code-block">
+    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    <pre><code>rm -rf build && ./build.sh</code></pre>
+    </div>
+    <p>The script will automatically clone the vibra backend, build the plugin, and install to the correct Qt6 QML path (with sudo).</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">4</div>
+  <div class="step-content">
+    <h4>Restart Plasma</h4>
+    <div class="code-block">
+    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    <pre><code>kquitapp6 plasmashell && kstart plasmashell</code></pre>
+    </div>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">5</div>
+  <div class="step-content">
+    <h4>Add the widget</h4>
+    <p>Right-click the panel → <strong>Add Widgets</strong> → search <strong>"Vibra"</strong> → add it to your panel.</p>
+  </div>
+</div>
+
+<hr>
+<h2>First-time Setup</h2>
+<p>Open the plasmoid and go to the <strong>Settings tab</strong>:</p>
+<ul>
+  <li><strong>Source</strong> — select the audio source:
+    <ul>
+      <li><em>Monitor of [device]</em> — captures audio playing through that device on this computer</li>
+      <li><em>[device] input</em> — captures ambient sound via microphone</li>
+    </ul>
+  </li>
+  <li><strong>Listen duration</strong> — minimum 15s, recommended 20-25s</li>
+  <li><strong>Show notifications</strong> — shows a notification when minimized and a track is found</li>
+  <li><strong>Start listening at startup</strong> — auto-starts when Plasma loads</li>
+  <li><strong>Cover art quality</strong> — High quality (800x800) or Standard (400x400)</li>
+</ul>
+
+<hr>
+<h2>Troubleshooting</h2>
+
+<h3>"vibra binary not found"</h3>
+<p>The vibra backend wasn't built. Run <code>./build.sh</code> again from the plasmoid root.</p>
+
+<h3>"module org.kde.plasma.vibra is not installed"</h3>
+<p>Install manually to the system Qt6 QML path:</p>
+<h4>Fedora</h4>
+<div class="code-block">
+<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code><span class="keyword">sudo</span> mkdir -p /usr/lib64/qt6/qml/org/kde/plasma/vibra
+<span class="keyword">sudo</span> cp ~/.local/share/plasma/plasmoids/org.kde.plasma.vibra/contents/imports/org/kde/plasma/vibra/* \
+        /usr/lib64/qt6/qml/org/kde/plasma/vibra/</code></pre>
+</div>
+<h4>Arch / Ubuntu</h4>
+<div class="code-block">
+<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code><span class="keyword">sudo</span> mkdir -p /usr/lib/qt6/qml/org/kde/plasma/vibra
+<span class="keyword">sudo</span> cp ~/.local/share/plasma/plasmoids/org.kde.plasma.vibra/contents/imports/org/kde/plasma/vibra/* \
+        /usr/lib/qt6/qml/org/kde/plasma/vibra/</code></pre>
+</div>
+
+<h3>"cmake: command not found"</h3>
+<div class="code-block">
+<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code><span class="comment"># Fedora</span>
+<span class="keyword">sudo</span> dnf install cmake
+
+<span class="comment"># Arch</span>
+<span class="keyword">sudo</span> pacman -S cmake
+
+<span class="comment"># Ubuntu</span>
+<span class="keyword">sudo</span> apt install cmake</code></pre>
+</div>
+
+<h3>Recognition fails immediately</h3>
+<ul>
+  <li>Check <code>pw-record</code> is available: <code>which pw-record</code></li>
+  <li>Check <code>pactl</code> is available: <code>which pactl</code></li>
+  <li>Check PipeWire is running: <code>systemctl --user status pipewire</code></li>
+  <li>Try a longer listen duration (25-30 seconds)</li>
+</ul>
+
+<h3>No devices in the source dropdown</h3>
+<p>Click the refresh button next to the source dropdown. If still empty, check that <code>pactl</code> is installed.</p>
+
+<hr>
+<div class="note">
+  <strong>Note:</strong> Settings and history survive Plasma restarts. History is limited to 50 entries. The plasmoid continues listening even when minimized.
+</div>
+
+</div>
+
+<script>
+function copyCode(btn) {
+  const pre = btn.nextElementSibling;
+  const text = pre.innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = 'Copy';
+      btn.classList.remove('copied');
+    }, 2000);
+  });
+}
+</script>
+</body>
+</html>

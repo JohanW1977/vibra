@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/CMakeFiles/vibra_ext"
+		},
+		{
+			"file" : "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/CMakeFiles/vibra_ext.rule"
+		},
+		{
+			"file" : "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/CMakeFiles/vibra_ext-complete.rule"
+		},
+		{
+			"file" : "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_ext-prefix/src/vibra_ext-stamp/vibra_ext-build.rule"
+		},
+		{
+			"file" : "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_ext-prefix/src/vibra_ext-stamp/vibra_ext-configure.rule"
+		},
+		{
+			"file" : "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_ext-prefix/src/vibra_ext-stamp/vibra_ext-download.rule"
+		},
+		{
+			"file" : "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_ext-prefix/src/vibra_ext-stamp/vibra_ext-install.rule"
+		},
+		{
+			"file" : "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_ext-prefix/src/vibra_ext-stamp/vibra_ext-mkdir.rule"
+		},
+		{
+			"file" : "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_ext-prefix/src/vibra_ext-stamp/vibra_ext-patch.rule"
+		},
+		{
+			"file" : "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_ext-prefix/src/vibra_ext-stamp/vibra_ext-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vibra_ext"
+		],
+		"name" : "vibra_ext"
+	}
+}

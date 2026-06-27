@@ -1,0 +1,3 @@
+sudo mkdir -p /usr/lib64/qt6/qml/org/kde/plasma/shazam
+sudo cp ~/.local/share/plasma/plasmoids/org.kde.plasma.shazam/contents/imports/org/kde/plasma/shazam/libplasma_shazam_plugin.so /usr/lib64/qt6/qml/org/kde/plasma/shazam/
+sudo cp ~/.local/share/plasma/plasmoids/org.kde.plasma.shazam/contents/imports/org/kde/plasma/shazam/qmldir /usr/lib64/qt6/qml/org/kde/plasma/shazam/

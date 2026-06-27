@@ -1,0 +1,5 @@
+if(EXISTS "/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/tests/vibra_unit_tests[1]_tests.cmake")
+  include("/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/tests/vibra_unit_tests[1]_tests.cmake")
+else()
+  add_test(vibra_unit_tests_NOT_BUILT vibra_unit_tests_NOT_BUILT)
+endif()

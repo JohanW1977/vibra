@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jwauters/.local/share/plasma/plasmoids/org.kde.plasma.vibra/build/vibra_build/_deps/googletest-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

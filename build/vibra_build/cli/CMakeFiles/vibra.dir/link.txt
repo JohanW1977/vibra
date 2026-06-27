@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Werror -Wextra -pedantic -fno-strict-aliasing -O2 -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/vibra.dir/link.d CMakeFiles/vibra.dir/main.cpp.o CMakeFiles/vibra.dir/cli.cpp.o CMakeFiles/vibra.dir/communication/shazam.cpp.o -o vibra  ../lib/libvibra.a /usr/lib64/libcurl.so -lm -lgcc_s_asneeded -lgcc_s_asneeded
