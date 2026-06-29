@@ -5,9 +5,9 @@ Backend by Bayern Muller (C++ code), frontend Plasmoid generated with ChatGPT an
 ---
 
 ## Screenshots
-![Alt text](/contents/docs/01.png?raw=true "Search Tab")
-![Alt text](/contents/docs/02.png?raw=true "Settings Tab")
-![Alt text](/contents/docs/03.png?raw=true "Info Tab")
+![Search tab](https://github.com/JohanW1977/vibra/contents/docs/01.png?raw=true "Search Tab")
+![Settings tab]([/](https://github.com/JohanW1977/vibra/)contents/docs/02.png?raw=true "Settings Tab")
+![Info Tab]([/](https://github.com/JohanW1977/vibra/)contents/docs/03.png?raw=true "Info Tab")
 
 
 ## Prerequisites
