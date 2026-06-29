@@ -1,8 +1,9 @@
 # Vibra++ Plasmoid — Installation Guide
 
 A Shazam-like music recognition plasmoid for KDE Plasma 6.
-Backend by Bayern Muller (C++ code), frontend Plasmoid generated with ChatGPT and Claude AI
 ---
+
+Backend by Bayern Muller (C++ code), frontend Plasmoid generated with ChatGPT and Claude AI
 
 ## Screenshots
 ![Search tab](https://github.com/JohanW1977/vibra/contents/docs/01.png?raw=true "Search Tab")
