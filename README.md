@@ -7,9 +7,9 @@ Backend by Bayern Muller (C++ code), frontend Plasmoid generated with ChatGPT an
 
 
 ## Screenshots
-![Search tab](https://github.com/JohanW1977/vibra/contents/docs/01.png)
-![Settings tab]([/](https://github.com/JohanW1977/vibra/)contents/docs/02.png)
-![Info Tab]([/](https://github.com/JohanW1977/vibra/)contents/docs/03.png)
+![Search tab](https://github.com/JohanW1977/vibra/blob/main/contents/docs/01.png)
+![Settings tab]([/](https://github.com/JohanW1977/vibra/blob/main/contents/docs/02.png)
+![Info Tab]([/](https://github.com/JohanW1977/vibra/blob/main/contents/docs/03.png)
 
 
 ## Prerequisites
