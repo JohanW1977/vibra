@@ -2,7 +2,13 @@
 
 A Shazam-like music recognition plasmoid for KDE Plasma 6.
 
+Backend by Bayern Muller (C++ code)
+Frontend Plasmoid generated with ChatGPT and Claude AI
 ---
+
+## Screenshots
+
+
 
 ## Prerequisites
 
